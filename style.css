@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    background-color: #f0f5ce;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #A2B38B;
+}
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.logo {
+    float: left;
+padding: 20px 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;  
+    padding: 0;
+    list-style: none;
+
+}
+
+nav li {
+   display: inline-block;
+   margin-left: 180px;
+   padding-top: 27px;
+}
+
+nav a {
+    color: #E4E9BE;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #FAFDD6;
+}
+
+#btn {
+    padding: 0 20px;
+    font-size: 1em;
+    font-weight: 100;
+    text-transform: lowercase;
+    border: 1px black solid;
+    background: transparent;
+    color:#526635;
+    border-radius: 2px;
+    border-color: #A2B38B;
+
+}
+
+#newsletter {
+    
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 200px;
+        margin-top: 50px;
+        color: #99aa81;
+      }
+
+      .cap {
+        font-style: italic;
+      
+      }
+
+      .ab {
+          align-items: center;
+          color: #809169;
+          margin-left: 25px;
+          margin-right: 25px;
+    
+    
+      }
+      #header-img {
+          margin: 0px;
+      }
+
+      .product {
+        display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(75% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+      }
+
+      .product > .bundle {
+        background-color: #E6BA95;
+        color: rgb(78, 52, 18);
+        padding: 10px 0;
+        width: 100%;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+
+      .product > h2 {
+        margin-top: 15px;
+      }
+      
+      .product > ul {
+        margin: 15px 0;
+        color:#526635;
+      }
+      
+      .product > ul > li {
+        padding: 5px 0;
+      }
+      
+      .btn-two {
+        border: 0;
+        margin: 15px 0;
+        background-color: #dda884;
+        font-weight: 400;
+      }
